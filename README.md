@@ -12,3 +12,5 @@ Some other usefull resources:
 3. [Roadmap de QA](https://roadmap.sh/qa)
 4. [NotebookLM](https://notebooklm.google/)
 5. [GROW de Google](https://grow.google/intl/es/)
+
+---
