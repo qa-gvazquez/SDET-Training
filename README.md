@@ -54,6 +54,10 @@ So, before re trying this castle boss, I'll need to gather some tools first and 
 4. [Interface Set en Java, y sus implementaciones HashSet y TreeSet.](https://www.youtube.com/watch?v=2bm0Ut4hu9A)
 5. [Buscar y eliminar datos de un conjunto con interfaz SET, con implementación HashSet](https://www.youtube.com/watch?v=4sZDkfpjsNE)
 
+Even more, there's a W3Schools lecture about Collections in JAVA.
+
+[W3Schools Java Data Structures](https://www.w3schools.com/java/java_data_structures.asp)
+
 
 ##### 1.1.2.1.2. How to count character occurrences in a given string
 
