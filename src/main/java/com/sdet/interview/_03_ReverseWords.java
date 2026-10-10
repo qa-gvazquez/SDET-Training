@@ -1,7 +1,5 @@
 package com.sdet.interview;
 
-import java.util.Arrays;
-
 /**
  * <h1>Word Reverse</h1>
  * The 'ReverseWords' program implements a method that

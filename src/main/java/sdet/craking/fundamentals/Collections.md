@@ -1,0 +1,24 @@
+# [Interfaces](https://docs.oracle.com/javase/tutorial/collections/index.html)
+
+- [Collections](https://docs.oracle.com/javase/tutorial/collections/index.html)
+- SET
+- [MAP](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
+  - HashMAP
+    - Basic Operations
+      - put
+      - get
+      - remove
+      - containsKey
+      - containsValue
+      - size
+      - empty
+    - Bulk Operations
+      - putAll
+      - clear
+    - Collection Views
+      - keySet
+      - entrySet
+      - values
+  - TreeMAP
+  - LinkedHashMap
+  - SortedMAP
