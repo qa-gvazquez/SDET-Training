@@ -4,9 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Ejemplo de uso de la Collection Map
- * See: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
- * EjemploMap
+ * Ejemplo de uso de la Interfaz <Map>
+ * 
+ * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">InterfaceMap<K,V></a>
+ * @see <a href="https://www.youtube.com/watch?v=wRYoig7CKYM">Saber la frecuencia de palabras en un array, usando Map y HashMap, en JAVA.</a>
  */
 public class EjemploMap {
 

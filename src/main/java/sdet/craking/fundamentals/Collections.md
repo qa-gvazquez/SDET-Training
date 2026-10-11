@@ -3,7 +3,7 @@
 - [Collections](https://docs.oracle.com/javase/tutorial/collections/index.html)
 - SET
 - [MAP](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
-  - HashMAP
+  - [HashMAP](https://docs.oracle.com/javase/tutorial/collections/interfaces/map.html)
     - Basic Operations
       - put
       - get
