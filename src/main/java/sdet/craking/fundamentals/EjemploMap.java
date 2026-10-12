@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Ejemplo de uso de la Interfaz <Map>
+ * Ejemplo de uso de la Interfaz MAP
  * 
- * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">InterfaceMap<K,V></a>
+ * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html"><b>InterfaceMap(Key,Value)</b></a>
  * @see <a href="https://www.youtube.com/watch?v=wRYoig7CKYM">Saber la frecuencia de palabras en un array, usando Map y HashMap, en JAVA.</a>
  */
 public class EjemploMap {
@@ -30,11 +30,12 @@ public class EjemploMap {
        edades.put("Carmen",36);
        edades.put("Miguel",43);
 
-       System.out.println("Edades: " + edades);
-       System.out.println("Llaves y Valores: " + edades.entrySet());
+       System.out.println("HashMap Edades: " + edades);
+       System.out.println("Claves y Valores: " + edades.entrySet());
        System.out.println("La edad de María es: " + edades.get("María"));
+       System.out.println("                                ");
+       System.out.println("Claves: " + edades.keySet());
        System.out.println("Valores: " + edades.values());
-       System.out.println("Llaves: " + edades.keySet());
        System.out.println("Tamaño del Map: " + edades.size());
        System.out.println("Contiene a Carmen? " + edades.containsKey("Carmen"));
 
