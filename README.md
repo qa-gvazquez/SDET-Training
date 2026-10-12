@@ -1,4 +1,11 @@
-- [1. SDET TRAINING self-paced](#1-sdet-training-self-paced)
+# 1. DSA - Estructura de Datos y Algoritmos
+
+Este repositorio en ESPAÑOL compila mis notas y ejercicios para aprender Estructura de Datos y Algoritmos.
+
+Se utlizan diferentes fuentes, siendo la prinicpal la dicumentación oficial de ORACLE, YouTube y Udemy.
+
+- [1. DSA - Estructura de Datos y Algoritmos](#1-dsa---estructura-de-datos-y-algoritmos)
+  - [ORACLE](#oracle)
   - [1.1. UDEMY](#11-udemy)
     - [1.1.1. Interview Preparation for SDET (Java)](#111-interview-preparation-for-sdet-java)
     - [1.1.2. Cracking Java Coding Interview for Automation Testers (2023)](#112-cracking-java-coding-interview-for-automation-testers-2023)
@@ -10,9 +17,39 @@
         - [1.1.2.1.5. Find first non-repeated character in a given string](#11215-find-first-non-repeated-character-in-a-given-string)
 - [2. Some other usefull resources](#2-some-other-usefull-resources)
 
-# 1. SDET TRAINING self-paced
+## ORACLE
 
-This repo hold exercises from different sources
+Leyendo la [documentación official](https://docs.oracle.com/javase/tutorial/collections/index.html) de JAVA, encontramos la estructura de las clases.
+
+- [Collections](https://docs.oracle.com/javase/tutorial/collections/intro/index.html):
+  - [Interfaces](https://docs.oracle.com/javase/tutorial/collections/interfaces/index.html)
+    - Set
+      - SortedSet
+    - List
+    - Queue
+    - Dequeue
+    - [MAP](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
+      - [HashMAP](https://docs.oracle.com/javase/tutorial/collections/interfaces/map.html)
+        - Basic Operations
+          - put
+          - get
+          - remove
+          - containsKey
+          - containsValue
+          - size
+          - empty
+        - Bulk Operations
+          - putAll
+          - clear
+        - Collection Views
+          - keySet
+          - entrySet
+          - values
+      - TreeMAP
+      - LinkedHashMap
+      - SortedMAP
+  - Implementations y
+  - Algorithms.
 
 ## 1.1. UDEMY
 
@@ -48,11 +85,14 @@ Since it got me unprepared, I re discovered the YouTube channel from [@Shakmuria
 
 So, before re trying this castle boss, I'll need to gather some tools first and train to use them.
 
-1. [Mapas en Java | Map y HashMap. (Ejercicio básico 1).](https://www.youtube.com/watch?v=KXla6JgQ7T8)
-2. [Saber la frecuencia de palabras en un array, usando Map y HashMap, en JAVA](https://www.youtube.com/watch?v=wRYoig7CKYM)
-3. [Saber la frecuencia de palabras de un array, convertidas en minúsculas, usando Map y HashMap en JAVA](https://www.youtube.com/watch?v=wuvA6IFDsPY)
-4. [Interface Set en Java, y sus implementaciones HashSet y TreeSet.](https://www.youtube.com/watch?v=2bm0Ut4hu9A)
-5. [Buscar y eliminar datos de un conjunto con interfaz SET, con implementación HashSet](https://www.youtube.com/watch?v=4sZDkfpjsNE)
+1. VIDEO 1 [Mapas en Java | Map y HashMap. (Ejercicio básico 1).](https://www.youtube.com/watch?v=KXla6JgQ7T8) from [@Shakmuria](https://www.youtube.com/@Shakmuria)
+   1. CODE 1: [EjercicioHashMap.java](src/main/java/sdet/craking/fundamentals/EjercicioHashMap.java)
+2. VIDEO 2 [🚀 HASH MAP en JAVA POO 🖥️ | COLLECTIONS | Explicación FÁCIL 💥#16 Bis](https://www.youtube.com/watch?v=jT0gnObfFls) from [@TodoCode](https://www.youtube.com/@TodoCode)
+   1. CODE 2
+3. VIDEO 3 [Saber la frecuencia de palabras en un array, usando Map y HashMap, en JAVA](https://www.youtube.com/watch?v=wRYoig7CKYM) from [@Shakmuria](https://www.youtube.com/@Shakmuria)
+4. [Saber la frecuencia de palabras de un array, convertidas en minúsculas, usando Map y HashMap en JAVA](https://www.youtube.com/watch?v=wuvA6IFDsPY) from [@Shakmuria](https://www.youtube.com/@Shakmuria)
+5. [Interface Set en Java, y sus implementaciones HashSet y TreeSet.](https://www.youtube.com/watch?v=2bm0Ut4hu9A) from [@Shakmuria](https://www.youtube.com/@Shakmuria)
+6. [Buscar y eliminar datos de un conjunto con interfaz SET, con implementación HashSet](https://www.youtube.com/watch?v=4sZDkfpjsNE) from [@Shakmuria](https://www.youtube.com/@Shakmuria)
 
 Even more, there's a W3Schools lecture about Collections in JAVA.
 
@@ -69,7 +109,7 @@ Even more, there's a W3Schools lecture about Collections in JAVA.
 
 # 2. Some other usefull resources
 
-1. [Visualizador de ejecuciòn de código JAVA](https://pythontutor.com/java.html#mode=edit)
+1. [Visualizador de ejecución de código JAVA](https://pythontutor.com/java.html#mode=edit)
 2. [Convertidor de Python a Java](https://www.codeconvert.ai/free-converter)
 3. [Transformador de código entre lenguajes Front End](https://transform.tools/)
 4. [Roadmap de JAVA](https://roadmap.sh/java)
